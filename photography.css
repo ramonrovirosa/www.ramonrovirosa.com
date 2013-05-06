@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Overlock:400,700);
+
+html { 
+	/* 
+	background: url(Background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Overlock', cursive; 
+	*/
+	background-color:ghostWhite;
+	font-family: Trebuchet MS1, Trebuchet MS, sans-serif;
+}
+body
+{
+    text-align:center;
+    margin: 0px;
+    }
+    
+ .wrapper
+ {
+     width: 960px;
+     margin: 0px auto;
+     }
+
+nav
+{
+    background-color:#2D2D2D;
+    margin: 0px 0px 0px 0px;
+    padding: 1px 0px 1px 0px;
+    }
+ul
+{
+    padding: 0px;
+    margin:10px;
+
+    }
+li
+{
+    display: inline;
+    padding: 5px;
+    color:White;
+    }
+ a:link
+ {
+     color:White;
+     text-decoration: none;
+     }
+ a:visited
+ {
+     text-decoration:none;
+     color:inherit;
+     }
+     
+ a:hover
+ {
+     text-decoration:underline;
+     opacity:.8;
+     }
+
+#name
+{
+    text-align:center;
+    color:White;
+    font-size: 500%;
+    text-shadow: 2px 2px 7px #111111;
+    margin-top: 90px;
+    }
+ #name:hover
+ {
+     text-shadow: 4px 4px 9px #C1ECFA;
+     }
+     
+ .photoContainer
+ {
+     width: 440px;
+     height: auto;
+     padding-bottom:5px;
+     background: #EFEFEF;
+     border-radius:5px;
+     margin: 20px;
+     display:block;
+     -moz-box-shadow: 2px 2px 1px #888;
+     -webkit-box-shadow: 2px 2px 1px #888;
+     box-shadow: 2px 2px 1px #888;
+     float:left;
+     padding-top: 10px;
+     }
+     
+  .photo
+  {
+      width:420px;
+      padding-top: 10px;
+      
+      
+      }
+      
+   #fbPhotoLike
+   {
+       padding-top: 25px;
+       padding-bottom: 20px;
+       margin-left: -470px;
+       }

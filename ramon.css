@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Overlock:400,700);
+
+html { 
+	/*background: url(Background.jpg) no-repeat center center fixed; */
+	background-color: ghostWhite;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Overlock', cursive;
+}
+body
+{
+    text-align:center;
+    margin: 0px;
+    }
+
+nav
+{
+    background-color:#2D2D2D;
+    margin: auto;
+    width: 620px;
+    padding: 1px 0px 1px 0px;
+    }
+ul
+{
+    padding: 0px;
+    margin:10px;
+
+    }
+li
+{
+    display: inline;
+    padding: 15px;
+    color:White;
+    }
+ a:link
+ {
+     color:White;
+     text-decoration: none;
+     }
+ a:visited
+ {
+     text-decoration:none;
+     color:inherit;
+     }
+     
+ a:hover
+ {
+     text-decoration: underline;
+     opacity:.8;
+     }
+p:hover
+{
+    text-decoration: none;
+    }
+    
+#name
+{
+    text-align:center;
+    color:#2D2D2D;
+    font-size: 500%;
+    text-shadow: 1px 1px 3px green;
+    margin: auto;
+    padding: 40px;
+    }
+
+     
+ #homeImage
+ {
+     width: 600px;
+     height: 400px;
+     margin-bottom: 0px;
+     border: 10px solid #2D2D2D;
+     }
